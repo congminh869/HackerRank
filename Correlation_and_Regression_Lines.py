@@ -33,4 +33,4 @@ var_hs = round(var_hs/(n-1),3)
 cov    = round(cov/(n-1),3)
 
 r =  round(cov/(math.sqrt(var_ps*var_hs)),3)
-print(r)
+print(r) #0.145
